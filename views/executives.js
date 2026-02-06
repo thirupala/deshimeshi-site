@@ -103,59 +103,41 @@ export function executives() {
     </div>
 
     <div class="panel-no-hover">
-      <h3>ROI & Business Impact</h3>
+      <h3>Value Delivered</h3>
       
-      <div class="stats">
-        <div class="stat-card">
-          <div class="stat-value">87%</div>
-          <div class="stat-label">Reduction in Compliance Effort</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">$2.4M</div>
-          <div class="stat-label">Average Annual Savings</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">3 weeks</div>
-          <div class="stat-label">Faster Audit Response</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">100%</div>
-          <div class="stat-label">AI Visibility</div>
-        </div>
-      </div>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px; border-left: 4px solid var(--accent);">
+        <strong>Note:</strong> ROI and cost savings vary by organization size, AI usage, and industry. Contact us for a customized assessment based on your specific needs.
+      </p>
 
-      <div style="margin-top: 3rem;">
-        <h4>Value Delivered</h4>
-        <div class="comparison">
-          <div class="comparison-item">
-            <div class="comparison-header">Cost Savings</div>
-            <ul>
-              <li>Eliminate redundant AI implementations</li>
-              <li>Reduce compliance team overhead</li>
-              <li>Optimize AI provider spending</li>
-              <li>Prevent costly regulatory fines</li>
-            </ul>
-          </div>
+      <div class="comparison">
+        <div class="comparison-item">
+          <div class="comparison-header">Cost Savings Potential</div>
+          <ul>
+            <li>Eliminate redundant AI implementations</li>
+            <li>Reduce compliance team overhead</li>
+            <li>Optimize AI provider spending</li>
+            <li>Prevent costly regulatory fines</li>
+          </ul>
+        </div>
 
-          <div class="comparison-item">
-            <div class="comparison-header">Risk Reduction</div>
-            <ul>
-              <li>Avoid EU AI Act penalties</li>
-              <li>Mitigate discrimination lawsuits</li>
-              <li>Reduce security incidents</li>
-              <li>Protect brand reputation</li>
-            </ul>
-          </div>
+        <div class="comparison-item">
+          <div class="comparison-header">Risk Reduction</div>
+          <ul>
+            <li>Avoid EU AI Act penalties</li>
+            <li>Mitigate discrimination lawsuits</li>
+            <li>Reduce security incidents</li>
+            <li>Protect brand reputation</li>
+          </ul>
+        </div>
 
-          <div class="comparison-item">
-            <div class="comparison-header">Revenue Enablement</div>
-            <ul>
-              <li>Launch AI features faster</li>
-              <li>Enter regulated markets</li>
-              <li>Win enterprise deals</li>
-              <li>Differentiate on trust</li>
-            </ul>
-          </div>
+        <div class="comparison-item">
+          <div class="comparison-header">Revenue Enablement</div>
+          <ul>
+            <li>Launch AI features faster</li>
+            <li>Enter regulated markets</li>
+            <li>Win enterprise deals</li>
+            <li>Differentiate on trust</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -193,7 +175,7 @@ export function executives() {
         <div>
           <h4>Compliance</h4>
           <ul class="feature-list">
-            <li>Are we compliant with the EU AI Act?</li>
+            <li>Are we prepared for upcoming AI regulations?</li>
             <li>Can we prove our AI is fair and unbiased?</li>
             <li>Do we have audit trails for regulators?</li>
             <li>Can we demonstrate responsible AI usage?</li>
@@ -234,10 +216,10 @@ export function executives() {
 
     <div class="panel-no-hover" style="background: linear-gradient(135deg, rgba(56, 189, 248, 0.1) 0%, transparent 100%); text-align: center; padding: 3rem;">
       <h3>Make AI a Strategic Advantage, Not a Risk</h3>
-      <p style="font-size: 1.1rem; margin-bottom: 2rem;">See how Fortune 500 companies govern AI at scale</p>
-      <div class="header-actions">
-        <a href="#/demo" class="cta-button">See Demo</a>
-        <a href="#" class="btn-secondary">Schedule Executive Briefing</a>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">Learn how enterprise organizations govern AI at scale</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#/demo" class="btn btn-primary">See Demo</a>
+        <a href="mailto:sales@decisionmesh.com" class="btn btn-secondary">Schedule Briefing</a>
       </div>
     </div>
   `;

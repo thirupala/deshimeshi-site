@@ -26,10 +26,6 @@ export function industries() {
           <span class="tag">ECOA</span>
           <span class="tag">FCRA</span>
         </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 90% faster audit response, zero regulatory findings</p>
-        </div>
       </div>
 
       <div class="panel">
@@ -51,10 +47,6 @@ export function industries() {
           <span class="tag">Patient Safety</span>
           <span class="tag">PHI Protection</span>
         </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 100% clinical AI traceability, zero data breaches</p>
-        </div>
       </div>
 
       <div class="panel">
@@ -74,10 +66,6 @@ export function industries() {
           <span class="tag">Fair Pricing</span>
           <span class="tag">Anti-Discrimination</span>
           <span class="tag">State Regulations</span>
-        </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 75% reduction in disputed claims</p>
         </div>
       </div>
 
@@ -99,10 +87,6 @@ export function industries() {
           <span class="tag">Centralized Governance</span>
           <span class="tag">Multi-Tenant</span>
         </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 3x faster AI feature launches</p>
-        </div>
       </div>
 
       <div class="panel">
@@ -122,10 +106,6 @@ export function industries() {
           <span class="tag">Attorney-Client Privilege</span>
           <span class="tag">Work Product Protection</span>
           <span class="tag">Ethical Rules</span>
-        </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 60% efficiency gain, zero ethical violations</p>
         </div>
       </div>
 
@@ -147,11 +127,13 @@ export function industries() {
           <span class="tag">FOIA Compliance</span>
           <span class="tag">Equity Assurance</span>
         </div>
-
-        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(56, 189, 248, 0.05); border-radius: 8px;">
-          <p style="margin: 0;"><strong>Impact:</strong> 95% citizen trust improvement</p>
-        </div>
       </div>
+    </div>
+
+    <div class="panel-no-hover" style="background: rgba(56, 189, 248, 0.05); border: 1px solid var(--border-light); padding: 2rem; margin-top: 2rem;">
+      <p style="margin: 0; text-align: center;">
+        <strong>Note:</strong> Specific outcomes and compliance certifications vary by implementation. Contact us to discuss your industry requirements and regulatory needs.
+      </p>
     </div>
 
     <div class="panel-no-hover">
@@ -171,9 +153,9 @@ export function industries() {
           <h4>⚡ Performance</h4>
           <ul class="feature-list">
             <li>Sub-10ms decision latency</li>
-            <li>10K+ decisions per second</li>
+            <li>High-throughput processing</li>
             <li>Multi-region deployment</li>
-            <li>99.99% uptime SLA</li>
+            <li>99.99% uptime target</li>
           </ul>
         </div>
 
@@ -238,31 +220,13 @@ export function industries() {
       </div>
     </div>
 
-    <div class="stats">
-      <div class="stat-card">
-        <div class="stat-value">15+</div>
-        <div class="stat-label">Industries Served</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">100+</div>
-        <div class="stat-label">Policy Templates</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">50+</div>
-        <div class="stat-label">Compliance Frameworks</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">Global</div>
-        <div class="stat-label">Deployment</div>
-      </div>
-    </div>
-
     <div class="panel-no-hover" style="text-align: center; padding: 3rem;">
       <h3>See Your Industry Solution</h3>
       <p style="font-size: 1.1rem; margin-bottom: 2rem;">Explore how DecisionMesh adapts to your industry requirements</p>
       <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
         <a href="#/demo" class="btn btn-primary">Try Demo</a>
         <a href="#/compliance" class="btn btn-secondary">Compliance Details</a>
+        <a href="mailto:sales@decisionmesh.com" class="btn btn-secondary">Contact Us</a>
       </div>
     </div>
   `;
