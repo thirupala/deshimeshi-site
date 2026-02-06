@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logo Test</title>
+  <style>
+    body {
+      background: #0a0e17;
+      color: white;
+      font-family: sans-serif;
+      padding: 50px;
+      text-align: center;
+    }
+    .test {
+      background: #1a1f2e;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    img {
+      filter: drop-shadow(0 4px 12px rgba(56, 189, 248, 0.4));
+    }
+  </style>
+</head>
+<body>
+  <div class="test">
+    <h1>Logo Test</h1>
+    <p>If you see your logo below, everything is working!</p>
+    <br/>
+    <img src="logo.png" alt="Logo" style="height: 60px;" />
+    <br/><br/>
+    <p>✅ If you see the logo above: <strong>SUCCESS!</strong></p>
+    <p>❌ If you see a broken image: Logo file is missing or in wrong location</p>
+    <br/>
+    <hr style="border-color: #333; margin: 20px 0;"/>
+    <p><strong>File Structure Check:</strong></p>
+    <p style="text-align: left; font-family: monospace; background: #0a0e17; padding: 15px; border-radius: 5px;">
+      your-folder/<br/>
+      ├── test-logo.html  ← This file<br/>
+      └── logo.png        ← Your logo (MUST BE HERE!)
+    </p>
+  </div>
+  
+  <script>
+    // Check if logo loaded
+    window.onload = function() {
+      const img = document.querySelector('img');
+      img.onerror = function() {
+        alert('❌ Logo file not found!\n\nMake sure logo.png is in the same folder as this HTML file.');
+      };
+      img.onload = function() {
+        console.log('✅ Logo loaded successfully!');
+      };
+    };
+  </script>
+</body>
+</html>
